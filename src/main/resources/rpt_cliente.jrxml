@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rpt_cliente" printOrder="Horizontal" pageWidth="82" pageHeight="213" orientation="Landscape" columnWidth="82" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="46e664bb-ff9d-4e25-b233-9bba2349857c">
+	<parameter name="id" class="java.lang.Integer"/>
+	<parameter name="funcao" class="java.lang.String"/>
+	<parameter name="nome" class="java.lang.String"/>
+	<parameter name="salario" class="java.lang.Double"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<detail>
+		<band height="213" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="40" y="10" width="20" height="60" uuid="2b1da463-5e6f-4d6a-8b50-0a046fe012cb"/>
+				<textElement rotation="Right"/>
+				<textFieldExpression><![CDATA["ID: "+$P{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="10" width="20" height="120" uuid="6b8357c8-af20-4956-848e-d9f513dd36e4"/>
+				<textElement rotation="Right"/>
+				<textFieldExpression><![CDATA["FUNÇÃO: "+$P{funcao}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="80" width="20" height="120" uuid="5a3c340e-67de-40c1-b8bd-79d49f45bf13"/>
+				<textElement rotation="Right"/>
+				<textFieldExpression><![CDATA["NOME: "+$P{nome}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
