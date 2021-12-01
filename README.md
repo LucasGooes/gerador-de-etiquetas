@@ -13,7 +13,7 @@
 
 ### Principais Ferramentas:
     * Spring Boot
-    * Spring Web
+    * Spring MVC
     * Spring Data
     * Jasper Reports 6.0.0
 
