@@ -1,10 +1,10 @@
 # Protótipo de Gerador de Etiquetas
 
-### Aplicação que envia um documento Jasper em formato de eqtiqueta diretamente para ser impresso.
+### Aplicação que envia um documento Jasper em formato de etiqueta diretamente para ser impresso.
 ### Funcionalidades:
     
-    * Reconhecer as impressoras disponiveis
-    * Selecionar Impressora
+    * Reconhecer as impressoras disponíveis
+    * Selecionar a impressora desejada.
     * Enviar documento para impressão
 
 ### Observações:
